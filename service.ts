@@ -10,3 +10,6 @@ alert('am modificat aici');
 function modify(item){
   return (item.length>0)? item.name: 'nu avem nimic' ;
 }
+function sum(array:any[]){
+    return array.reduce((a,b)=> a+b);
+}
